@@ -31,5 +31,6 @@ URL de secours sans domaine : `https://jet4git.github.io/site-web-scorecartes/`.
 
 ## À tenir à jour
 
-- La date « dernière mise à jour » de la politique de confidentialité, si elle change.
+- Les pages doivent suivre l'app : jeux pris en charge (accueil, assistance), fonctions (scan, compte rendu PDF, iCloud, langues) et, surtout, ce que dit la politique de confidentialité des données (iCloud, partage). Les textes de la fiche App Store sont dans le dépôt de l'app (`appstore/textes-fiche.md`).
+- La date « dernière mise à jour » de la politique de confidentialité, si elle change (dernière : 30 octobre 2026).
 - Le bouton « Bientôt sur l'App Store » de `index.html` : remplacer par le lien de la fiche une fois publiée.
