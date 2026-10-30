@@ -5,9 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Confidentialité — Score Cartes</title>
 <meta name="description" content="Politique de confidentialité de Score Cartes : aucune donnée collectée par l'éditeur, aucun compte, aucun serveur. Vos parties restent sur vos appareils et dans votre iCloud ; vos photos de cartes ne quittent pas votre iPhone.">
+<link rel="alternate" hreflang="fr" href="https://scorecartes.jepico.fr/confidentialite.html">
+<link rel="alternate" hreflang="en" href="https://scorecartes.jepico.fr/en/privacy.html">
+<link rel="alternate" hreflang="de" href="https://scorecartes.jepico.fr/de/datenschutz.html">
+<link rel="alternate" hreflang="x-default" href="https://scorecartes.jepico.fr/confidentialite.html">
 <link rel="icon" type="image/png" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/icon-180.png">
 <link rel="stylesheet" href="css/style.css">
+<script>
+  (function () {
+    try {
+      var alt = { en: 'en/privacy.html', de: 'de/datenschutz.html' };
+      var saved = localStorage.getItem('lang');
+      var browser = (navigator.language || 'fr').slice(0, 2);
+      var wanted = saved || browser;
+      if (alt[wanted]) location.replace(alt[wanted]);
+    } catch (e) {}
+  })();
+</script>
 </head>
 <body>
 
@@ -20,6 +35,7 @@
     <a href="index.html">Accueil</a>
     <a href="assistance.html">Assistance</a>
     <a href="confidentialite.html" aria-current="page">Confidentialité</a>
+    <span class="lang-switch"><a href="confidentialite.html" hreflang="fr" lang="fr" data-lang="fr" aria-current="true">FR</a><a href="en/privacy.html" hreflang="en" lang="en" data-lang="en">EN</a><a href="de/datenschutz.html" hreflang="de" lang="de" data-lang="de">DE</a></span>
   </nav>
 </header>
 
@@ -120,6 +136,17 @@
         fallback();
       }
     });
+  })();
+</script>
+
+<script>
+  (function () {
+    var links = document.querySelectorAll('.lang-switch a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('click', function () {
+        try { localStorage.setItem('lang', this.getAttribute('data-lang')); } catch (e) {}
+      });
+    }
   })();
 </script>
 

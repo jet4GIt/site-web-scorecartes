@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — Score Cartes</title>
+<meta name="description" content="Score Cartes privacy policy: no data collected by the publisher, no account, no server. Your games stay on your devices and in your iCloud; your card photos never leave your iPhone.">
+<link rel="alternate" hreflang="fr" href="https://scorecartes.jepico.fr/confidentialite.html">
+<link rel="alternate" hreflang="en" href="https://scorecartes.jepico.fr/en/privacy.html">
+<link rel="alternate" hreflang="de" href="https://scorecartes.jepico.fr/de/datenschutz.html">
+<link rel="alternate" hreflang="x-default" href="https://scorecartes.jepico.fr/confidentialite.html">
+<link rel="icon" type="image/png" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icon-180.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img src="../assets/icon-180.png" alt="">
+    <span class="brand-name">Score Cartes</span>
+  </a>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html" aria-current="page">Privacy</a>
+    <span class="lang-switch"><a href="../confidentialite.html" hreflang="fr" lang="fr" data-lang="fr">FR</a><a href="privacy.html" hreflang="en" lang="en" data-lang="en" aria-current="true">EN</a><a href="../de/datenschutz.html" hreflang="de" lang="de" data-lang="de">DE</a></span>
+  </nav>
+</header>
+
+<div class="page">
+  <h1>Privacy policy</h1>
+  <p class="subtitle">Score Cartes — last updated: October 30, 2026</p>
+
+  <p class="intro">Score Cartes is an app that keeps score for card games. This page explains what the app stores, where it lives, and what is never transmitted. In short: the publisher collects no data.</p>
+
+  <section>
+    <h2>No data collected</h2>
+    <p>Score Cartes has no user account and no server. The publisher does not receive, collect or store any data about you: not your games, not your players' names, not your photos, not your location, not an advertising identifier. The app works entirely offline; its only communication with the Internet is the iCloud sync described below, carried out by Apple on your behalf and under your control.</p>
+  </section>
+
+  <section>
+    <h2>What the app stores on your device</h2>
+    <p>Your games, players' names, groups, game nights and scores are saved in the app's own space on your device.</p>
+    <p>Like other app data, they may be included in your iPhone backups (iCloud or computer) if you have turned those backups on. They are then handled by Apple, according to your settings, and not by the publisher.</p>
+  </section>
+
+  <section>
+    <h2>iCloud sync</h2>
+    <p>If your device is signed in to iCloud, Score Cartes syncs your games, players, groups and game nights there, so you can find them on your other devices (iPhone, iPad) signed in with the same Apple Account. This data is kept in the <strong>private database</strong> of your iCloud account, using Apple's CloudKit technology: only you can read it. The publisher has no access to it and receives no copy. This sync is handled by Apple, under its own terms and within your iCloud storage.</p>
+    <p>Without an iCloud account, or if you turn iCloud off for the app in the iPhone's Settings, everything stays on the device. Card photos are never synced: they are not kept.</p>
+  </section>
+
+  <section>
+    <h2>Camera and photos</h2>
+    <p>The camera is only used when you start a scan to read a player's cards. Reading is done entirely on your device, using the image and text recognition features built into iOS. The photo is never sent: it is only kept while you check the result, then discarded. It is not saved in the app or added to your photo library.</p>
+    <p>If you choose an existing photo, the app only receives the photo you select, never the rest of your photo library.</p>
+  </section>
+
+  <section>
+    <h2>Report and sharing</h2>
+    <p>The “Share results” feature builds a PDF on your device (ranking, statistics, round-by-round details), then opens the iOS share sheet. You choose the recipient and tap “Send”: nothing is transmitted before. The short debrief it contains is written on your device, with the intelligence built into iOS when available, otherwise with sentences prepared by the app; no text is sent to an outside service.</p>
+  </section>
+
+  <section>
+    <h2>Premium purchase</h2>
+    <p>The purchase of Premium is handled entirely by Apple, through the App Store. The publisher receives neither your payment details nor your identity: the app only asks Apple, on your device, whether Premium has been purchased. The number of free scans already used is a simple counter kept on your device.</p>
+  </section>
+
+  <section>
+    <h2>No ads, no tracking</h2>
+    <p>Score Cartes shows no ads, uses no tracking or audience-analytics tool, and includes no third-party software. In the App Store listing, the “App Privacy” section therefore says “Data Not Collected”.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>The app collects no data, including children's data.</p>
+  </section>
+
+  <section>
+    <h2>Deleting your data</h2>
+    <p>To delete a game: swipe it to the left in the list, or open it, then the “···” menu → “Delete game”; the deletion carries over to your synced devices. Uninstalling the app removes its data from your device; the copy kept in your iCloud is managed in the iPhone's Settings (your name → iCloud), and the publisher holds none.</p>
+  </section>
+
+  <section>
+    <h2>Changes</h2>
+    <p>If this policy changes, the update date at the top of this page will be changed.</p>
+  </section>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>For any question about this policy:</p>
+    <div class="contact-row">
+      <span class="email" id="email">support-contact@jepico.fr</span>
+      <button id="copy-btn" type="button">Copy</button>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <span>Score Cartes — Score keeper for card games</span>
+  <a href="index.html">Home</a>
+  <a href="support.html">Support</a>
+  <span>&copy; 2026 Jérôme Pingard</span>
+</footer>
+
+<script>
+  (function () {
+    var btn = document.getElementById('copy-btn');
+    var email = document.getElementById('email').textContent;
+    btn.addEventListener('click', function () {
+      function fallback() {
+        var range = document.createRange();
+        range.selectNodeContents(document.getElementById('email'));
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+      }
+      try {
+        navigator.clipboard.writeText(email).then(function () {
+          btn.textContent = 'Copied';
+          setTimeout(function () { btn.textContent = 'Copy'; }, 1500);
+        }).catch(fallback);
+      } catch (e) {
+        fallback();
+      }
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    var links = document.querySelectorAll('.lang-switch a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener('click', function () {
+        try { localStorage.setItem('lang', this.getAttribute('data-lang')); } catch (e) {}
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
