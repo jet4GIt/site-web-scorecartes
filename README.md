@@ -48,4 +48,4 @@ URL de secours sans domaine : `https://jet4git.github.io/site-web-scorecartes/`.
 
 - Les pages doivent suivre l'app : jeux pris en charge (accueil, assistance), fonctions (scan, compte rendu PDF, iCloud, langues) et, surtout, ce que dit la politique de confidentialité des données (iCloud, partage). Les textes de la fiche App Store sont dans le dépôt de l'app (`appstore/textes-fiche.md`).
 - La date « dernière mise à jour » de la politique de confidentialité, dans les trois langues, si elle change (dernière : 30 octobre 2026).
-- Le bouton « Bientôt sur l'App Store » des trois pages d'accueil (`index.html`, `en/index.html`, `de/index.html`) : remplacer par le lien de la fiche une fois publiée.
+- Le bouton « Télécharger sur l'App Store » des trois pages d'accueil (`index.html`, `en/index.html`, `de/index.html`) pointe vers la fiche (`id6826818625`) : lien `/fr/` pour la page française, lien sans pays pour l'anglais et l'allemand (Apple redirige vers la boutique du visiteur).
